@@ -1,1 +1,1 @@
-# StructlyChallenges
+# StructyChallenges
