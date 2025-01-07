@@ -7,8 +7,3 @@ export const sumOfLengths = (strArr : string[]) : number => {
 
     return str + sumOfLengths(strArr.slice(1));
 };
-
-const actual = sumOfLengths(["", " ", "  ", "   ", "    ", "     "]);
-const expected = 15;
-console.log("Actual:\t", actual);
-console.log("Expected:\t", expected, "\nMatch:\t", actual === expected);
