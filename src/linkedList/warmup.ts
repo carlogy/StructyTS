@@ -47,3 +47,5 @@ const recursivePrintLL = (head : Node | null) => {
 
 console.log("Starting Recursive function:");
 recursivePrintLL(a);
+
+export default Node;
