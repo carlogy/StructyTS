@@ -8,6 +8,7 @@ export class Node<NodeType> {
     }
 }
 
+export type ListNode = Node<string | number> | null;
 
 
 
