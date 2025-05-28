@@ -1,5 +1,5 @@
 export const fizzBuzz = (n: number) => {
-       const result = [];
+       const result: (number | string)[] = [];
 
        for (let i = 1; i <= n; i++) {
         if (i % 3 === 0 && i % 5 === 0) {
